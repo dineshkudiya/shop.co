@@ -79,7 +79,18 @@
     justify-content: center;
     align-items: center;
     }
+    .cart .cart-row {
+     flex-direction: column;
+     gap:20px;
     }
+
+    .cart .col-01 {width: 100%;}
+    .cart .col-02 {
+        width: 100%;
+    }
+    
+    }
+    
     @media (max-width: 768px) {
     .title-03 {
     font-size: var(--font-Size35);
@@ -240,6 +251,8 @@
     justify-content: center;
     flex-wrap: wrap;
     }
+
+    
     }
     @media (max-width: 576px) {
         header .logo img{
@@ -306,7 +319,80 @@
     .footer .footer-col-01:nth-child(-n+5) {
     width: 100%;
     }
+
+    .cart .title-02 {
+        margin-bottom: 20px;
     }
+    .cart .cart-col {
+        padding: 14px 14px;
+    }
+    .cart .cart-box {
+
+        gap: 14px;
+        padding-bottom: 18px;
+    }
+    .cart h4 {
+        font-size: var(--font-Size16);
+    }
+
+    .cart .col-01 span {
+       
+        font-size: var(--font-Size12);
+    }
+    .cart .price {
+        
+        font-size: var(--font-Size20);
+    }
+    .cart .delete {
+        width: 20px;
+        height: 20px;
+    }
+    .cart .plus-minus-btn span {
+        font-size: var(--font-Size16);
+    }
+    .cart .cart-box:nth-child(2) {
+        padding: 18px 0;
+    }
+    .cart .order h4 {
+        font-size: var(--font-Size20);
+    }
+    .cart .order .order-que {
+        font-size: var(--font-Size16);
+    }
+    .cart .order .order-ans {
+        font-size: var(--font-Size16);
+    }
+    .cart .order .order-summary {
+
+        gap: 16px;
+    }
+    .cart .order .total {
+        font-size: var(--font-Size16);
+    }
+    .cart .order .total-price {
+        font-size: var(--font-Size20);
+    }
+    .cart .order .total {
+        padding: 10px 0 20px 0;
+    }
+    .cart .order .apply {
+       
+        font-size: var(--font-Size14);
+    }
+    
+
+    .cart .order .order-search {
+
+        margin-bottom: 16px;
+    }
+    .cart .order .checkout {
+      
+        font-size: var(--font-Size14);
+    }
+    }
+
+
+
     @media (max-width: 425px) {
     .hero-banner .counter-col-01 {
     padding-right: 16px;

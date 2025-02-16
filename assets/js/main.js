@@ -25,38 +25,43 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        center: true,
+       
     items:2,
     loop:true,
-    margin:20,
+        
+        margin: 20,
+        dots: false,
+        nav: true, 
         navText: [
-            "<img src='../images/arrow-02.svg' alt='Prev'>", 
-            "<img src='../images/arrow-02.svg' alt='Next'>"
-        ],          
-        dots: false,         
-        responsive:{
-            0:{
-                items:1,
-                center:false
+            '<i class="fa-solid fa-arrow-left-long"></i>',
+            '<i class="fa-solid fa-arrow-right-long"></i>'
+        ],
+        responsive: {
+            0: {
+                items: 1
             },
-            576:{
-                items:1
+            576: {
+                items: 1
             },
-            768:{
-                items:2,
-               
-            },
-            1024:{
-                items:4,
+            768: {
+                items: 2
                
                 
             },
-            1200:{
-                items:4
+            1024: {
+                items: 4
+                
+              
+            },
+            1200: {
+                items: 4,
+                center:true
+                
             }
         }
     });
 });
+
   
   
 new WOW().init();

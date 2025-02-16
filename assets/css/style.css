@@ -7,12 +7,11 @@
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 1000s;
-
+  z-index: 1000;
   background: var(--white);
   }
   header.fixed-top {
-    box-shadow: var(--box-shadow2);
+    box-shadow: 0 0 4px 5px var(--gray);
     animation: slide-down 0.7s;
   }
   
@@ -247,7 +246,7 @@
   padding-bottom: 64px;
   }
   
-  .top-seleing .top-seleing {
+  .new-arrials .top-seleing {
   border-bottom: none;
   }
   
@@ -533,3 +532,224 @@
   align-items: center;
   }
   
+
+
+
+
+
+
+
+
+
+
+  /* --------------cart style---------- */
+
+  
+  .cart .title-02{
+    margin-bottom: 24px;
+  }
+  
+ .cart .cart-row{
+display: flex;
+gap:20px;
+ }
+ .cart .cart-col{
+  padding: 20px 24px;  
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+}
+ .cart .col-01{
+  width: 56%;
+ }
+ .cart .col-02{
+  width: 44%;
+}
+.cart .cart-box{
+  display: flex;
+  align-items: center;
+  gap:16px;
+  padding-bottom: 24px;
+  border-bottom:1px solid #00000010;
+}
+
+.cart .cart-box:nth-child(2){
+  padding:24px 0;
+}
+
+
+.cart .cart-box:nth-child(3){
+  padding-top: 24px;
+  border-bottom: none;
+}
+.cart img{
+  border-radius: 8px;
+}
+.cart .cart-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart .delete-plus-minus{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: end;
+}
+.cart .delete{
+  width: 24px;
+  height: 24px;
+}
+.cart .plus-minus-btn{
+  border-radius: 62px;
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  justify-content: space-between;
+background:var(--gray);
+width: 126px;
+}
+
+.cart span{
+  font-size: 15px;
+}
+.cart h4{
+  color: var(--black);
+  font-family: "popins-bold";
+font-size: var(--font-Size20);
+}
+
+.cart .col-01 span{
+  color:var(--black);
+
+font-family: "popins-regular";
+font-size: var(--font-Size14);
+}
+.cart .plus-minus-btn span{
+  font-size: var(--font-Size18);
+}
+.cart .col-01 .desc-value{
+  color: rgba(0, 0, 0, 0.60);
+}
+.cart .desc{
+  margin-bottom: 4px;
+}
+.cart .price{
+  margin-top: 8px;
+  color: var(--black);
+  font-family: "popins-bold";
+
+font-size: var(--font-Size24);
+}
+
+.cart .col-02{
+  height: 100%;
+  min-height:200px;
+}
+.cart .order{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-bottom: none;
+
+}
+.cart .order .order-search-area{
+  width: 100%;
+}
+.cart .order .order-btn{
+   display: flex;
+   align-items: center;
+   border-radius: 62px;
+background:var(--gray);
+padding-left:16px;
+gap:12px;
+width: 100%;
+}
+.cart .order input{
+  background:var(--gray);
+  padding: 14px 16px 14px 0;
+  border-radius: 62px;
+  width: 100%;
+
+}
+.cart .order .order-search{
+  display: flex;
+  align-items: center;
+  gap:12px;
+  width: 100%;
+  margin-bottom: 24px;
+
+}
+.cart .order .apply{
+padding: 10px 16px;
+  border-radius: 62px;
+background:var(--black);
+width: 100%;
+max-width: 126px;
+
+
+color: var(--white);
+font-size: var(--font-Size16);
+font-family: "popins-medium";
+
+}
+
+
+.cart .order .checkout{
+  padding: 12px 54px;
+  border-radius: 62px;
+background:var(--black);
+width: 100%;
+color: var(--white);
+font-size: var(--font-Size16);
+font-family: "popins-medium";
+}
+
+.cart .order h4{
+color:var(--black);
+font-family: "popins-bold";
+font-size: var(--font-Size24);
+}
+.cart .order .order-summary{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  width: 100%;
+}
+
+.cart .order .order-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cart .order .order-que{
+color: #00000060;
+font-size: var(--font-Size20);
+font-family: "popins-regular";
+}
+.cart .order .order-ans{
+  color: var(--black);
+font-family: "popins-bold";
+  font-size: var(--font-Size20);
+  }
+  .cart .order .total-box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .cart .order .total{
+    color:var(--black);
+    font-family: "popins-regular";
+
+font-size:var(--font-Size20);
+padding:20px 0 24px 0;
+  }
+
+  .cart .order .total-price{
+    color:var(--black);
+    font-size:var(--font-Size24);
+font-family: "popins-bold";
+  }
+
+ 

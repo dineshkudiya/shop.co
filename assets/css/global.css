@@ -170,11 +170,7 @@ background: transparent;
 color: var(--black);
 }
 
-.btn:focus-visible, .btn:focus {
-border: none;
-outline: none;
-box-shadow: none;
-}
+
 
 .btn-02 {
 border: 1px solid rgba(0, 0, 0, 0.1);
@@ -194,4 +190,8 @@ color: rgba(0, 0, 0, 0.4);
 
 ::placeholder {
 color: rgba(0, 0, 0, 0.4);
+}
+input{
+  border:none;
+  outline: none;
 }
