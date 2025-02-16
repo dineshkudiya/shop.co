@@ -1,0 +1,197 @@
+:root{   
+    --white:#ffffff;
+    --black:#000000;
+    --gray:#F0F0F0; 
+   --font-Size12:12px;
+   --font-Size14:14px;
+   --font-Size16:16px;
+   --font-Size18:18px;
+   --font-Size20:20px;
+   --font-Size24:24px;
+   --font-Size28:28px;
+   --font-Size30:30px;
+   --font-Size35:35px;
+   --font-Size42:42px;
+   --font-Size40:40px;
+   --font-Size46:46px;
+   --font-Size48:48px;
+   --font-Size50:50px;
+   --font-Size56:56px;
+   --font-Size60:60px;
+   --font-Size64:64px; 
+     --font-weight300:300;
+     --font-weight400:400;
+     --font-weight500:500;
+     --font-weight600:600;
+     --font-weight700:700;
+     --font-weight800:800;
+ }
+
+@font-face {
+font-family: "popins-regular";
+src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+font-weight: var(--font-weight400);
+font-display: swap;
+}
+@font-face {
+font-family: "popins-medium";
+src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+font-weight: var(--font-weight500);
+font-display: swap;
+}
+@font-face {
+font-family: "popins-semibold";
+src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+font-weight: var(--font-weight600);
+font-display: swap;
+}
+@font-face {
+font-family: "popins-bold";
+src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+font-weight: var(--font-weight700);
+font-display: swap;
+}
+@font-face {
+font-family: "popins-extrabold";
+src: url("../fonts/Poppins-ExtraBold.ttf") format("truetype");
+font-weight: var(--font-weight800);
+font-display: swap;
+}
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-size: var(--font-Size16);
+font-style: normal;
+line-height: 1.6;
+font-family: "popins-regular", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+padding: 0;
+margin: 0;
+}
+
+ul {
+list-style: none;
+}
+
+ul, p {
+padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+a, i, img,input {
+cursor: pointer;
+}
+
+a, span {
+display: inline-block;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+
+}
+
+button {
+border: none;
+background: var(--white);
+}
+
+.container-layout {
+width: 100%;
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 60px;
+}
+
+.container {
+width: 100%;
+max-width: 1240px;
+margin: 0 auto;
+}
+
+.title-01 {
+font-family: "popins-bold";
+font-size: var(--font-Size64);
+color: var(--black);
+line-height: 64px;
+}
+
+.title-02 {
+font-family: "popins-bold";
+font-size: var(--font-Size48);
+color: var(--black);
+}
+
+.title-03 {
+color: var(--white);
+font-family: "popins-bold";
+ font-size: var(--font-Size40);
+line-height: 45px;
+}
+
+.title-01, .title-02 {
+text-transform: uppercase;
+}
+
+.btn-common {
+border-radius: 62px;
+font-family: "popins-medium";
+padding: 16px 54px;
+font-size: var(--font-Size16);
+transition: all 0.5s ease-in-out;
+cursor: pointer;
+display: inline-block;
+}
+
+.btn {
+background: var(--black);
+color: var(--white);
+border: 1px solid var(--black);
+}
+
+.btn:hover {
+border: 1px solid var(--black);
+background: transparent;
+color: var(--black);
+}
+
+.btn:focus-visible, .btn:focus {
+border: none;
+outline: none;
+box-shadow: none;
+}
+
+.btn-02 {
+border: 1px solid rgba(0, 0, 0, 0.1);
+background: transparent;
+color: var(--black);
+}
+
+.btn-02:hover {
+background: var(--black);
+border: 1px solid var(--black);
+color: var(--white);
+}
+
+::-moz-placeholder {
+color: rgba(0, 0, 0, 0.4);
+}
+
+::placeholder {
+color: rgba(0, 0, 0, 0.4);
+}
