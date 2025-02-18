@@ -1,115 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Best Online Shopping Deals | Shop.co</title>
-    <meta name="description"
-        content="Shop.co offers the best online shopping experience with great deals on fashion, electronics, and more. Shop now and save!">
-    <meta property="og:title" content="Best Online Shopping Deals | Shop.co">
-    <meta property="og:description"
-        content="Shop.co offers top deals on fashion, electronics, and more. Save big with our exclusive offers.">
-    <meta property="og:image" content="https://shop.co/og-image.jpg">
-    <meta property="og:url" content="https://shop.co">
-    <meta property="og:site_name" content="Shop.co">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Best Online Shopping Deals | Shop.co">
-    <meta name="twitter:description"
-        content="Shop.co offers top deals on fashion, electronics, and more. Save big with our exclusive offers.">
-    <meta name="twitter:image" content="https://shop.co/twitter-image.jpg">
-    <link rel="canonical" href="https://shop.co">
-    <link rel="icon" type="image/png" href="./assest/images/shop-logo.svgs">
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-<link rel="stylesheet" href="./assets/css/global.css">
-<link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="./assets/css/responsive.css">
 
 
 
 
-
-
-
-</head>
-
-<body>
-
-
-
-
-
-    <!-- Header Section -->
-    <header>
-        <div class="container-layout">
-            <div class="container">
-                <div class="menu">
-
-                    <div class="menu-left">
-                       
-                        <div id="toggle-bar">
-                            <span class="line one"></span>
-                            <span class="line two"></span>
-                            <span class="line three"></span>
-                        </div>
-                        <a href="" class="logo">
-                            <img src="./assets/images/shop-logo.svg" alt="shop-logo">
-                        </a>
-                    </div>
-
-                    <div class="menu-link">
-                         <div id="crosstoggle">
-                            <span class="line one"></span>
-                            <span class="line two"></span>
-                         </div>
-                    <ul>
-                        <li><a href="">Shop</a></li>
-                        <li><a href="">On Sale</a></li>
-                        <li><a href="#new-arrials">New Arrives</a></li>
-                        <li><a href="">Brands</a></li>
-
-                    </ul>
-                </div>
-
-                    <div class="search-area">
-                    <div class="search-bar">
-                        <img src="./assets/images/search.svg" alt="search">
-                        <input type="text" class="search" placeholder="Search for products...">
-                    </div>
-                    </div>
-                    <div class="header-social-icon">
-                        <img src="./assets/images/search-icon.svg" alt="search" class="search-social" id="search-social">
-                        <a href="cart.html">
-                        <img src="./assets/images/basket.svg" alt="basket">
-
-                        </a>
-                        <a href="user.html">
-                        <img src="./assets/images/user.svg" alt="user">
-                        </a>
-                    </div>
-
-
-                </div>
-            </div>
-
-    </header>
-
-
-
-
-
+ <?php 
+ include "header.php"
+ ?>
 
     <!-- Main Content -->
     <main id="main-content">
-
-
         <!-- Hero Section -->
         <section id="hero-banner" class="hero-banner">
             <div class="container-layout">
@@ -120,23 +18,23 @@
                                 <h1 class="title-01 wow animate__backInLeft" data-wow-delay="">
                                     FIND CLOTHES THAT MATCHES YOUR STYLE
                                 </h1>
-                                <p class="">Browse through our diverse range of meticulously crafted garments, designed
+                                <p class="sub-title-01">Browse through our diverse range of meticulously crafted garments, designed
                                     to bring
                                     out your individuality and cater to your sense of style.</p>
-                                <button class="btn btn-common">Shop Now</button>
+                                <button class="btn-area btn-dark">Shop Now</button>
 
                                 <div class="counter-row row">
                                     <div class="counter-col-01 counter-col">
                                         <h4>200+</h4>
-                                        <p>International Brands</p>
+                                        <p class="sub-title-01">International Brands</p>
                                     </div>
                                     <div class="counter-col-02 counter-col">
                                         <h4>2000+</h4>
-                                        <p>High-Quality Products</p>
+                                        <p class="sub-title-01">High-Quality Products</p>
                                     </div>
                                     <div class="counter-col-03 counter-col">
                                         <h4>30,000+</h4>
-                                        <p>Happy Customers</p>
+                                        <p class="sub-title-01">Happy Customers</p>
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +47,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+       </section>
 
 
         <!-- Brand Section -->
@@ -181,18 +79,18 @@
 
         <!-- New Arrials Section -->
 
-        <section id="new-arrials" class="new-arrials wow animate__bounceIn">
+        <section id="common-componanet" class="common-componanet wow animate__bounceIn">
             <div class="container-layout">
                 <div class="container">
                     <h2 class="title-02">
                         NEW ARRIVALS
                     </h2>
 
-                    <div class="new-arrials-row row">
-                        <div class="new-arrials-col col">
+                    <div class="common-componanet-row row">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/new-01.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">T-SHIRT WITH TAPE DETAILS</h5>
+                                <h5 class="title-05">T-SHIRT WITH TAPE DETAILS</h5>
                                 <div class="star-all">
                                     <div class="star">
                                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
@@ -206,13 +104,13 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$120</h5>
+                                <h5 class="title-06">$120</h5>
                             </div>
                         </div>
-                        <div class="new-arrials-col col">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/new-02.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">SKINNY FIT JEANS</h5>
+                                <h5 class="title-05">SKINNY FIT JEANS</h5>
                                 <div class="star-all">
                                     <div class="star">
 
@@ -225,13 +123,13 @@
                                         3.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$240</h5>
+                                <h5 class="title-06">$240</h5>
                             </div>
                         </div>
-                        <div class="new-arrials-col col">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/new-03.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">CHECKERED SHIRT</h5>
+                                <h5 class="title-05">CHECKERED SHIRT</h5>
                                 <div class="star-all">
                                     <div class="star">
                                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
@@ -244,13 +142,13 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$180</h5>
+                                <h5 class="title-06">$180</h5>
                             </div>
                         </div>
-                        <div class="new-arrials-col col">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/new-04.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">SLEEVE STRIPED T-SHIRT</h5>
+                                <h5 class="title-05">SLEEVE STRIPED T-SHIRT</h5>
                                 <div class="star-all">
                                     <div class="star">
 
@@ -264,14 +162,14 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$130</h5>
+                                <h5 class="title-06">$130</h5>
                             </div>
                         </div>
 
 
                     </div>
-                    <div class="new-arrials-row-01 row-01">
-                        <button class="btn-02 btn-common">
+                    <div class="common-componanet-row-01 row-01">
+                        <button class="btn-area btn-outline">
                             View All
                         </button>
                     </div>
@@ -281,18 +179,18 @@
 
         <!-- top-seleing Section -->
 
-        <section id="new-arrials top-seleing" class="new-arrials wow animate__bounceIn">
+        <section id="top-seleing" class="common-componanet wow animate__bounceIn">
             <div class="container-layout">
                 <div class="container">
                     <h2 class="title-02">
                         top selling
                     </h2>
 
-                    <div class="new-arrials-row row">
-                        <div class="new-arrials-col col">
+                    <div class="common-componanet-row row">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/top-01.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">VERTICAL STRIPED SHIRT</h5>
+                                <h5 class="title-05">VERTICAL STRIPED SHIRT</h5>
                                 <div class="star-all">
                                     <div class="star">
                                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
@@ -306,13 +204,13 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$212</h5>
+                                <h5 class="title-06">$212</h5>
                             </div>
                         </div>
-                        <div class="new-arrials-col col">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/top-02.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">COURAGE GRAPHIC T-SHIRT</h5>
+                                <h5 class="title-05">COURAGE GRAPHIC T-SHIRT</h5>
                                 <div class="star-all">
                                     <div class="star">
                                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
@@ -325,13 +223,13 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$145</h5>
+                                <h5 class="title-06">$145</h5>
                             </div>
                         </div>
-                        <div class="new-arrials-col col">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/top-03.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">LOOSE FIT BERMUDA SHORTS</h5>
+                                <h5 class="title-05">LOOSE FIT BERMUDA SHORTS</h5>
                                 <div class="star-all">
                                     <div class="star">
                                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
@@ -345,13 +243,13 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$80</h5>
+                                <h5 class="title-06">$80</h5>
                             </div>
                         </div>
-                        <div class="new-arrials-col col">
+                        <div class="common-componanet-col col">
                             <img src="./assets/images/top-04.png" alt="new-01" class="new-img">
                             <div class="new-text">
-                                <h5 class="heading">FADED SKINNY JEANS</h5>
+                                <h5 class="title-05">FADED SKINNY JEANS</h5>
                                 <div class="star-all">
                                     <div class="star">
                                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
@@ -365,14 +263,14 @@
                                         4.5/5
                                     </p>
                                 </div>
-                                <h5 class="price">$210</h5>
+                                <h5 class="title-06">$210</h5>
                             </div>
                         </div>
 
 
                     </div>
-                    <div class="new-arrials-row-01 row-01 top-seleing">
-                        <button class="btn-02 btn-common">
+                    <div class="common-componanet-row-01 row-01 top-seleing">
+                        <button class="btn-area btn-outline">
                             View All
                         </button>
                     </div>
@@ -389,28 +287,28 @@
                     <div class="daress-style-row row-01">
                         <div class="daress-style-col col-01">
                             <img src="./assets/images/dress-01.png" alt="dress-01" class="dress dress-01">
-                            <h6 class="heading">Casual</h6>
+                            <h6 class="title-07">Casual</h6>
 
 
                         </div>
                         <div class="daress-style-col col-02">
                             <img src="./assets/images/dress-02.png" alt="dress-02" class="dress dress-01">
 
-                            <h6 class="heading">Formal</h6>
+                            <h6 class="title-07">Formal</h6>
 
 
                         </div>
                         <div class="daress-style-col col-03">
                             <img src="./assets/images/dress-03.png" alt="dress-03" class="dress dress-01">
 
-                            <h6 class="heading">Party</h6>
+                            <h6 class="title-07">Party</h6>
 
 
                         </div>
                         <div class="daress-style-col col-04">
                             <img src="./assets/images/dress-04.png" alt="dress-04" class="dress dress-01">
 
-                            <h6 class="heading">Gym</h6>
+                            <h6 class="title-07">Gym</h6>
 
 
                         </div>
@@ -418,6 +316,7 @@
                 </div>
             </div>
         </section>
+
         <!-- Customer Section -->
 
         <section id="customer" class="customer">
@@ -443,9 +342,9 @@
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
 
                     </div>
-                    <div class="name"><span>Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
+                    <div class="name"><span class="title-05">Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
                             class="check"></div>
-                    <p class="customer-decs">"I'm blown away by the quality and style of the clothes I received from
+                    <p class="sub-title-01">"I'm blown away by the quality and style of the clothes I received from
                         Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my
                         expectations.”</p>
                 </div>
@@ -457,9 +356,9 @@
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                     </div>
-                    <h6 class="name"><span>Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
+                    <h6 class="name"><span class="title-05">Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
                             class="check"></h6>
-                    <p class="customer-decs">"I'm blown away by the quality and style of the clothes I received from
+                    <p class="sub-title-01">"I'm blown away by the quality and style of the clothes I received from
                         Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my
                         expectations.”</p>
                 </div>
@@ -471,9 +370,9 @@
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                     </div>
-                    <h6 class="name"><span>Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
+                    <h6 class="name"><span class="title-05">Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
                             class="check"></h6>
-                    <p class="customer-decs">"I'm blown away by the quality and style of the clothes I received from
+                    <p class="sub-title-01">"I'm blown away by the quality and style of the clothes I received from
                         Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my
                         expectations.”</p>
                 </div>
@@ -485,9 +384,9 @@
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                     </div>
-                    <h6 class="name"><span>Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
+                    <h6 class="name"><span  class="title-05">Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
                             class="check"></h6>
-                    <p class="customer-decs">"I'm blown away by the quality and style of the clothes I received from
+                    <p class="sub-title-01">"I'm blown away by the quality and style of the clothes I received from
                         Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my
                         expectations.”</p>
                 </div>
@@ -499,9 +398,9 @@
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                         <img src="./assets/images/star-gold-01.svg" alt="star-gold-01">
                     </div>
-                    <h6 class="name"><span>Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
+                    <h6 class="name"><span  class="title-05">Sarah M.</span> <img src="./assets/images/check.svg" alt="check"
                             class="check"></h6>
-                    <p class="customer-decs">"I'm blown away by the quality and style of the clothes I received from
+                    <p class="sub-title-01">"I'm blown away by the quality and style of the clothes I received from
                         Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my
                         expectations.”</p>
                 </div>
@@ -514,119 +413,8 @@
 
 
         </section>
-        <!-- footer Section -->
+       
 
-        <section class="footer-top">
-            <div class="container-layout">
-                <div class="container">
-                    <div class="footer-row row">
-
-                        <div class="footer-col col-01">
-                            <h3 class="title-03">
-                                STAY UPTO DATE ABOUT OUR LATEST OFFERS
-                            </h3>
-                        </div>
-
-                        <div class="footer-col col-02">
-                            <div class="footer-search-bar-01">
-                                <img src="./assets/images/mail.svg" alt="mail" class="mail">
-                                <input type="text" class="footer-search-01" placeholder="Enter your email address">
-                            </div>
-                            <div class="footer-search-bar-01">
-                                <input type="text" class="footer-search-02" placeholder="Subscribe to Newsletter">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <section class="footer" id="footer">
-            <div class="container-layout">
-                <div class="container">
-                    <div class="footer-row row">
-                        <div class="footer-col-01 col-01">
-                            <a href="" class="footer-logo">
-                                <img src="./assets/images/shop-logo.svg" alt="shop-logo" class="shop-logo">
-                            </a>
-                            <p>We have clothes that suits your style and which you’re proud to wear. From women to men.
-                            </p>
-                            <div class="footer-social-icon">
-                                <span>
-                                    <i class="fa-brands fa-twitter"></i>
-                                </span>
-                                <span>
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </span>
-                                <span>
-                                    <i class="fa-brands fa-instagram"></i>
-                                </span>
-                                <span>
-                                    <i class="fa-brands fa-github"></i>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="footer-col-01 col-02">
-                            <h5 class="footer-heading">Company</h5>
-                            <a href="">About</a>
-                            <a href="">Features</a>
-                            <a href="">Works</a>
-                            <a href="">Career</a>
-                        </div>
-                        <div class="footer-col-01 col-03">
-                            <h5 class="footer-heading">Help</h5>
-                            <a href="">Customer Support</a>
-                            <a href="">Delivery Details</a>
-                            <a href="">Terms & Conditions</a>
-                            <a href="">Privacy Policy</a>
-                        </div>
-                        <div class="footer-col-01 col-04">
-                            <h5 class="footer-heading">FAQ</h5>
-                            <a href="">Account</a>
-                            <a href="">Manage Deliveries</a>
-                            <a href="">Orders</a>
-                            <a href="">Payments</a>
-                        </div>
-                        <div class="footer-col-01 col-05">
-                            <h5 class="footer-heading">Resources</h5>
-                            <a href="">Free eBooks</a>
-                            <a href="">Development Tutorial</a>
-                            <a href="">How to - Blog </a>
-                            <a href="">Youtube Playlist</a>
-                        </div>
-                    </div>
-
-                    <div class="footer-row-01 row-01">
-                        <div class="footer-row-col-01">
-                            <p>Shop.co © 2000-2025, All Rights Reserved</p>
-                        </div>
-                        <div class="footer-row-col-01">
-                            <div class="payment-method">
-                                <img src="./assets/images/payment-01.svg" alt="payment-01" class="payment">
-                                <img src="./assets/images/payment-02.svg" alt="payment-02" class="payment">
-                                <img src="./assets/images/payment-03.svg" alt="payment-03" class="payment">
-                                <img src="./assets/images/payment-04.svg" alt="payment-04" class="payment">
-                                <img src="./assets/images/payment-05.svg" alt="payment-05" class="payment">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-
-
-
-    <!-- ------------js Link-------------------- -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="./assets/js/main.js"></script>
-
-
-</body>
-
-</html>
+        <?php 
+ include "footer.php"
+ ?>

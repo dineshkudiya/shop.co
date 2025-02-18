@@ -65,3 +65,20 @@ $(document).ready(function(){
   
   
 new WOW().init();
+
+
+$(document).ready(function() {
+    $(".tab").click(function() {
+        let index = $(this).index();
+        
+        $(".tab").removeClass("one-active");
+        $(this).addClass("one-active");
+
+        $(".tab-content").removeClass("one-active");
+        $(".tab-content").eq(index).addClass("one-active");
+    });
+
+    $(".tab").removeClass("one-active").eq(1).addClass("one-active"); 
+    $(".tab-content").removeClass("one-active").eq(1).addClass("one-active");
+});
+
