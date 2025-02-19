@@ -84,10 +84,10 @@
                     <div class="header-social-icon">
                         <img src="./assets/images/search-icon.svg" alt="search" class="search-social"
                             id="search-social">
-                        <a href="cart.html">
+                        <a href="cart.php">
                             <img src="./assets/images/basket.svg" alt="basket">
                         </a>
-                        <a href="user.html">
+                        <a href="user.php">
                             <img src="./assets/images/user.svg" alt="user">
                         </a>
                     </div>
